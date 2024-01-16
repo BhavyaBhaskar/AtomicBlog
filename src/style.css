@@ -222,8 +222,9 @@ aside li button {
 
   .btn-fake-dark-mode {
     display: flex;
+    position: absolute;
     justify-content: end;
-    opacity: 0.5;
+    background-color: transparent;
   }
 
   section {
