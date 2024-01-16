@@ -216,14 +216,13 @@ aside li button {
   }
 
   section {
-    max-width: 100%; /* Full width on mobile */
-    margin: 0 auto;
+    width: 100%; /* Full width */
+    margin: 0;
   }
 
   header {
     margin-bottom: 16px; /* Reduced margin for mobile */
     font-weight: bold;
-    justify-content: space-between;
     display: flex;
     flex-direction: column; /* Adjusted layout for mobile */
     align-items: center; /* Centered items for mobile */
@@ -251,6 +250,7 @@ aside li button {
   }
 
   header div {
+    width: 100%; /* Full width */
     display: flex;
     flex-direction: column; /* Adjusted layout for mobile */
     gap: 16px;
@@ -259,9 +259,11 @@ aside li button {
 
   header button {
     font-size: 14px;
+    width: 100%; /* Full width */
   }
 
   form {
+    width: 100%; /* Full width */
     padding: 16px;
     background-color: #fff4e6;
     display: flex;
@@ -271,10 +273,12 @@ aside li button {
   }
 
   main {
+    width: 100%; /* Full width */
     margin-bottom: 20px;
   }
 
   aside {
+    width: 100%; /* Full width */
     margin-bottom: 20px;
     opacity: 75%;
   }
@@ -287,7 +291,7 @@ aside li button {
     border: 1px solid #ffe8cc;
     font-family: inherit;
     color: inherit;
-    width: 100%; /* Full width on mobile */
+    width: 100%; /* Full width */
   }
 
   *::placeholder {
@@ -309,9 +313,11 @@ aside li button {
     font-weight: 700;
     padding: 12px;
     cursor: pointer;
+    width: 100%; /* Full width */
   }
 
   main ul {
+    width: 100%; /* Full width */
     list-style: none;
     display: flex;
     flex-wrap: wrap; /* Adjusted layout for mobile */
@@ -319,7 +325,7 @@ aside li button {
   }
 
   main li {
-    flex: 1;
+    width: 100%; /* Full width */
     border: 1px solid #ffe8cc;
     padding: 12px;
   }
@@ -331,12 +337,14 @@ aside li button {
   aside ul {
     font-size: 90%;
     list-style: none;
+    width: 100%; /* Full width */
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
   aside li {
+    width: 100%; /* Full width */
     border: 1px solid #ffe8cc;
     padding: 4px 8px;
     display: flex;
@@ -351,9 +359,11 @@ aside li button {
   aside li button {
     padding: 4px 8px;
     font-size: 14px;
+    width: 100%; /* Full width */
   }
 
   .footer {
     cursor: pointer;
+    width: 100%; /* Full width */
   }
 }
