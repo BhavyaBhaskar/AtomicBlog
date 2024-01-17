@@ -46,7 +46,7 @@ function Header() {
   return (
     <header>
       <h1>
-        <span>⚛️</span>The Atomic Blog
+        <span>🛰️</span>Fusion Feed<span>🛰️</span>
       </h1>
       <div>
         <Results />
